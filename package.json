@@ -1,0 +1,30 @@
+{
+  "name": "commit-msg-must-use-emoji",
+  "version": "0.0.0",
+  "description": "💌 Easy-to-add Git hook that forces you to start every commit message with an emoji",
+  "keywords": [
+    "git",
+    "commit",
+    "git-hook",
+    "hook",
+    "emoji"
+  ],
+  "homepage": "https://github.com/alecglassford/commit-msg-must-use-emoji#readme",
+  "bugs": {
+    "url": "https://github.com/alecglassford/commit-msg-must-use-emoji/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Alec Glassford",
+    "email": "glassford@cs.stanford.edu",
+    "url": "https://alecglassford.com"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alecglassford/commit-msg-must-use-emoji.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
