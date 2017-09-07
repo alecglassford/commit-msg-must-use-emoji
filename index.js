@@ -9,7 +9,7 @@ const testString = function stringBeginsWithEmoji(msg) {
 
 const testFile = function fileBeginsWithEmoji(filename) {
   const msg = fs.readFileSync(filename, 'utf-8');
-  return stringBeginsWithEmoji(msg);
+  return testString(msg);
 };
 
 module.exports = {
