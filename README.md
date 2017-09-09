@@ -70,7 +70,7 @@ if (!startsWithEmoji.testString(messageFilename) {
 
 ### If your project doesn't have a package.json (but Node is installed on your machine)
 
-You can install this package gloablly (`npm install -g commit-msg-must-use-emoji`) and then, as long as you're on a Unix machine and don't already have a `commit-msg` Git hook, go to your project and try
+You can install this package globally (`npm install -g commit-msg-must-use-emoji`) and then, as long as you're on a Unix machine and don't already have a `commit-msg` Git hook, go to your project and try
 
 ```
 echo '#!/usr/bin/env sh
@@ -81,3 +81,7 @@ chmod +x ./.git/hooks/commit-msg
 🎉
 
 If you want to add this to an existing `commit-msg` shell script, adding `commit-msg-must-use-emoji $1` somewhere in there will probably work. If you're on Windows, I'm not sure.
+
+## 🌻 Thx
+
+Thanks to [all](https://medium.com/@tessr/making-money-530d2bb2b8f7) [the](https://www.nytimes.com/2016/11/09/arts/secrets-of-the-emoji-world-now-with-its-own-convention-emojicon.html) [emoji](http://99percentinvisible.org/episode/person-lotus-position/) [lovers](https://xkcd.com/1870/), but interacting with the work of [@notwaldorf](https://github.com/notwaldorf/), emojineer extraordinaire, has probably done the most to get me excited about emoji recently.
