@@ -1,6 +1,6 @@
 {
   "name": "commit-msg-must-use-emoji",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "💌 Easy-to-add Git hook that forces you to start every commit message with an emoji",
   "keywords": [
     "git",
