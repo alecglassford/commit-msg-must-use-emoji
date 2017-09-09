@@ -3,11 +3,11 @@
 
 ## What is this?
 
-Once you install this, whenever you try to commit and your message doesn't start with an emoji, your commit will fail and you'll be prompted to amend it. You can bypass this by adding `--no-verify` to `git commit`.
+Once you install this, whenever you try to commit and your message doesn't start with an emoji, your commit will fail and you'll be prompted to amend it. You can bypass it by adding `--no-verify` to `git commit`.
 
 ## Why is this?
 
-[Lots of people](https://www.npmjs.com/search?q=emoji+commit) seem interested in using emoji in Git commit messages, for [various](https://gitmoji.carloscuesta.me/) [reasons](https://github.com/atom/atom/blob/master/CONTRIBUTING.md#git-commit-messages). You can do this in some consistent way to communicate stuff, or you can just do it to add fun to your life (or both).
+[Lots of people](https://www.npmjs.com/search?q=emoji+commit) seem interested in using emoji in Git commit messages, for [various](https://gitmoji.carloscuesta.me/) [reasons](https://github.com/atom/atom/blob/master/CONTRIBUTING.md#git-commit-messages). You can do this in some consistent way to communicate stuff, or you can just do it to add fun to the world (or both).
 
 Emoji bring a lot of light to my life. Do I really want them in *every* commit message? I don't know; let's find out.
 
