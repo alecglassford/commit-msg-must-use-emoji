@@ -17,9 +17,9 @@ No other tool did exactly what I wanted here, so I thought I'd play around in th
 
 ## Installation
 
-* [If your project has a package.json](#if-your-project-has-a-package-json)
+* [If your project has a package.json](#if-your-project-has-a-packagejson)
   * [If you already have a `commitmsg` Node script](#if-you-already-have-a-commitmsg-node-script)
-* [If your project doesn't have a package.json (but Node is installed on your machine)](#if-your-project-doesnt-have-a-package-json-but-node-is-installed-on-your-machine)
+* [If your project doesn't have a package.json (but Node is installed on your machine)](#if-your-project-doesnt-have-a-packagejson-but-node-is-installed-on-your-machine)
 
 ### If your project has a package.json
 
