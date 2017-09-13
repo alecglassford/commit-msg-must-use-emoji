@@ -47,7 +47,7 @@ Then add a `commitmsg` script so your `package.json` looks like:
 
 #### If you already have a `commitmsg` Node script
 
-You can add require this package and test a commit message string or a commit message filename (Husky stores it in `process.env.GIT_PARAMS` while a general Git hook node script will provide it as `process.argv[2]`):
+You can require this package and test a commit message string or a commit message filename (Husky stores it in `process.env.GIT_PARAMS` while a general Git hook node script will provide it as `process.argv[2]`):
 
 ```
 const startsWithEmoji = require('commit-msg-must-use-emoji');
