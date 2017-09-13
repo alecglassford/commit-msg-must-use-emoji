@@ -70,7 +70,7 @@ if (!startsWithEmoji.testString(messageFilename) {
 
 ### If your project doesn't have a package.json (but Node is installed on your machine)
 
-You can install this package globally (`npm install -g commit-msg-must-use-emoji`) and then, as long as you're on a Unix machine and don't already have a `commit-msg` Git hook, go to your project and try
+You can install this package globally (`npm install -g commit-msg-must-use-emoji` or `yarn global add commit-msg-must-use-emoji`) and then, as long as you're on a Unix machine and don't already have a `commit-msg` Git hook, go to your project and try
 
 ```
 echo '#!/usr/bin/env sh
