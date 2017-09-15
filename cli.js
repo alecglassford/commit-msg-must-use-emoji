@@ -11,7 +11,7 @@ if (!filename) {
 
 const passesTest = startsWithEmoji.testFile(filename);
 if (!passesTest) {
-  console.error('🚨 Your commit message must start with an emoji. Try `git commit --amend`.');
+  console.error('🚨 Your commit message must start with an emoji. Try again.');
   process.exit(1);
 }
 
