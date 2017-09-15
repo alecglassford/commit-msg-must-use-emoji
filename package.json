@@ -26,12 +26,16 @@
     "url": "git+https://github.com/alecglassford/commit-msg-must-use-emoji.git"
   },
   "scripts": {
+    "commitmsg": "./cli.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "emoji-regex": "^6.5.1"
   },
   "peerDependencies": {
+    "husky": "^0.14.3"
+  },
+  "devDependencies": {
     "husky": "^0.14.3"
   }
 }
