@@ -45,6 +45,8 @@ Then add a `commitmsg` script so your `package.json` looks like:
 
 🎉
 
+(Note that this configuration format is for Husky ^0.14.3; version 0.15.x requires [a different format, which is easy to migrate to](https://github.com/typicode/husky#upgrading-from-014). Using 0.15.x may give a peer dependency error, since it's still in prerelease, but you can probably do it.)
+
 #### If you already have a `commitmsg` Node script
 
 You can require this package and test a commit message string or a commit message filename (Husky stores it in `process.env.GIT_PARAMS` while a general Git hook node script will provide it as `process.argv[2]`):
@@ -84,7 +86,7 @@ If you want to add this to an existing `commit-msg` shell script, adding `commit
 
 ## 👫 Contributing
 
-[Feel free.](https://www.newyorker.com/magazine/2014/11/17/feel-free-2) [Issues](https://github.com/alecglassford/commit-msg-musg-use-emoji/issues) and [pull requests](https://github.com/alecglassford/commit-msg-musg-use-emoji/pulls) are open.
+[Feel free.](https://www.newyorker.com/magazine/2014/11/17/feel-free-2) [Issues](https://github.com/alecglassford/commit-msg-must-use-emoji/issues) and [pull requests](https://github.com/alecglassford/commit-msg-must-use-emoji/pulls) are open.
 
 ## 🌻 Thx
 
