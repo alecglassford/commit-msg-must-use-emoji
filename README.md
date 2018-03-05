@@ -61,7 +61,7 @@ if (!startsWithEmoji.testString(messageString)) {
 }
 
 // or
-if (!startsWithEmoji.testString(messageFilename) {
+if (!startsWithEmoji.testFile(messageFilename) {
   console.error('😿');
 }
 ```
@@ -70,7 +70,7 @@ if (!startsWithEmoji.testString(messageFilename) {
 
 ### If your project doesn't have a package.json (but Node is installed on your machine)
 
-You can install this package globally (`npm install -g commit-msg-must-use-emoji` or `yarn global add commit-msg-must-use-emoji`) and then, as long as you're on a Unix machine and don't already have a `commit-msg` Git hook, go to your project and try
+You can install this package globally (`npm install -g commit-msg-must-use-emoji` or `yarn global add commit-msg-must-use-emoji`) and then, as long as you're on a Unix machine and don't already have a `commit-msg` Git hook, `cd` to your repository and try
 
 ```
 echo '#!/usr/bin/env sh
@@ -81,6 +81,10 @@ chmod +x ./.git/hooks/commit-msg
 🎉
 
 If you want to add this to an existing `commit-msg` shell script, adding `commit-msg-must-use-emoji $1` somewhere in there will probably work. If you're on Windows, I'm not sure.
+
+## 👫 Contributing
+
+[Feel free.](https://www.newyorker.com/magazine/2014/11/17/feel-free-2) [Issues](https://github.com/alecglassford/commit-msg-musg-use-emoji/issues) and [pull requests](https://github.com/alecglassford/commit-msg-musg-use-emoji/pulls) are open.
 
 ## 🌻 Thx
 
